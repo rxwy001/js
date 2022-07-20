@@ -5,7 +5,7 @@
 *******************************
 [rewrite_local]
 # > 欲漫涩解锁会员漫画
-^https?:\/\/.*\.com\/api\/app\/user\/info$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/PornComicsCrack.js
+^https?:\/\/.*\.com\/api\/app\/user\/info$ url script-response-body https://raw.githubusercontent.com/rxwy001/js/main/lsp.js
 
 [mitm] 
 hostname = zjgeo.eqobc.com, xnour.xonap.com, opzzy.kefsww.com, tqrbq.mpckv.com
