@@ -6,4 +6,4 @@
 hostname = *.music.163.com
 
 [Script]
-http-request ^http?:\/\/.*\.music\.163\.com\/\w{4}\/(song|v\d|playlist|search|artist) script-path=https://gist.githubusercontent.com/ddgksf2013/45da6349bd85f037faaafeb3f23eaec9/raw/Netease.vip.conf, request-body=true, timeout=10, tag=wyyyy@ddgksf2013
+http-request-header ^http?:\/\/.*\.music\.163\.com\/\w{4}\/(song|v\d|playlist|search|artist) script-path=https://gist.githubusercontent.com/ddgksf2013/45da6349bd85f037faaafeb3f23eaec9/raw/Netease.vip.conf, request-body=true, timeout=10, tag=wyyyy@ddgksf2013
