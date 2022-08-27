@@ -10,4 +10,4 @@
 (^https?:\/\/(?!((r\d-)|manifest))[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+?)\/ctier\/L(\/.+?)%2Cctier(%2C.+?)((\/probe\/1)|$) 302 $1$4$5
 
 [MITM]
-hostname = %APPEND% -redirector*.googlevideo.com,*.googlevideo.com,www.youtube.com,s.youtube.com,youtubei.googleapis.com
+hostname = *.googlevideo.com,*.googlevideo.com,www.youtube.com,s.youtube.com,youtubei.googleapis.com
