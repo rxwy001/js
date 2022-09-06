@@ -21,7 +21,7 @@ https://mdwy5.com/#/register?代码=580580
 
 [rewrite_local]
 
-^https:\/\/fcapi\.91por\.vip\/api\/video\/user\/info url script-response-body mgtv.js
+^https:\/\/fcapi\.91por\.vip\/api\/video\/user\/info url script-response-body https://raw.githubusercontent.com/rxwy001/js/main/Music.js
 
 
 [mitm]
